@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Đồng Hồ Đếm Ngược</title>
+<link rel="stylesheet" href="bai2.css">
+</head> 
+<body>
+<div class="khungdh">
+    <div class="tg" id="timer">
+        00:00
+    </div>
+    <div>
+        <button class="nut" onclick="startTimer()">Bắt Đầu</button>
+        <button class="nut" onclick="resetTimer()">Tạo Lại</button>
+    </div>
+</div>
+<div id="controls">
+    <input type="number" id="minutes" min="0" max="59" placeholder="Phút">
+    <input type="number" id="seconds" min="0" max="59" placeholder="Giây">
+</div>       
+<audio id="alarmSound">
+    <source src="bao-thuc-tieng-ga-gay-nhacchuongviet.com.mp3">
+  </audio>
+<script src="bai2.js"></script>
+</body>
+</html>

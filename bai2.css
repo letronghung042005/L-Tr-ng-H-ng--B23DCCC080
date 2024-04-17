@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+#timer {
+    font-size: 80px;
+    margin-bottom: 100px;
+	top: 60px;
+
+}
+#controls {
+    margin-top: 200px;
+}
+body,html{
+	padding:0;
+	margin:0;
+	width: 100%;
+    height: 100%;
+	background-image: url(pexels-lukas-rodriguez-3559235.jpg);
+	background-size:100% ;
+}
+*,*:before,*:after{
+	position:relative;
+	box-sizing:border-box;
+}
+*:before,*:after{
+	content:'';
+	display:block;
+}
+.khungdh {
+	background-color: rgb(93, 93, 150);
+	background-image: url(hinh-nen-thanh-pho-ve-dem-17.jpg.webp);
+	width: 300px;
+	height: 300px;
+	left: 40%;
+	top: 18%;
+	border-radius: 80%;
+	box-shadow: 0 8px 16px 0 rgba(23, 5, 5, 0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.nut {
+	width: 70px;
+	height: 30px;
+	border-radius: 50%;
+	background-color: rgb(133, 131, 151);
+	color: aliceblue;
+}
+
+
+.nut:hover {background-color: #aabdaa}
+
+.nut:active {
+  background-color: #646964;
+  box-shadow: 0 5px #434665;
+  transform: translateY(4px);
+}
+.tg {
+	width: 220px;
+	height: 90px;
+	background-color: rgba(68, 59, 67, 0.356);
+	left: 13%;
+	border-radius: 10px;
+	box-shadow: 0 8px 16px 0 rgba(41, 145, 215, 0.235), 0 6px 20px 0 rgba(0,0,0,0.19);
+	color: aliceblue;
+}
